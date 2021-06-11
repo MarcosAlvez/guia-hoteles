@@ -4,7 +4,8 @@
   "description": "Fullstack assignments, using bootstrap4",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,12 @@
   },
   "homepage": "https://github.com/MarcosAlvez/guia-hoteles#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "debug": "^4.3.1",
-    "lite-server": "^2.6.1"
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "bootstrap": "^5.0.1"
+    "lite-server": "^2.6.1"
   }
 }
