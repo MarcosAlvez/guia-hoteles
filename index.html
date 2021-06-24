@@ -50,17 +50,34 @@
                 </div>
             </div>
 
-            <div class="row">
+            <hr>
+
+            <div class="row mt-3">
                 <div class="col-sm-4">
-                    <p><h3>¿Cómo funciona?</h3><p>Buscá los hoteles de acuerdo a tu preferencia.</p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#funciona" aria-expanded="false" aria-controls="multicollpase1">¿Cómo funciona?</button>
                 </div>
                 <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#reserva" aria-expanded="false" aria-controls="multicollpase2">¿Dónde puedo reservar?</button>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#pago" aria-expanded="false" aria-controls="multicollpase3">¿Cómo pago?</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 collapse multi-collapse" id="funciona">
+                    <p><h3>¿Cómo funciona?</h3><p>Buscá los hoteles de acuerdo a tu preferencia.</p>
+                </div>
+                <div class="col-sm-4 collapse multi-collapse" id="reserva">
                     <p>
                         <h3>¿Dónde puedo reservar?</h3>
                         <p>Elegí la ciudad que te interese y luego realizá la reserva con tus datos.</p>
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 collapse multi-collapse" id="pago">
                     <p>
                     <h3>¿Cómo pago?</h3>
                     <p>Utiliza tu tarjeta favorita.</p>
