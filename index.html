@@ -176,7 +176,7 @@
                         <h6 class="card-subtitle text-muted">Brasil</h6>
                         <img class="card-img-top" src="images/hotel.jpg" alt="hotel">
                         <p class="card-text">Hotel ubicado en pleno centro.</p>
-                        <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                        <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
                     </div>
                     <div>
                         <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promo" data-content="Consulta las promociones vigentes."><span class="oi oi-plus"></span> Reservar</button>
@@ -251,6 +251,18 @@
       $("[data-toggle='popover']").popover();
       $('.carousel').carousel({
           interval: 2000
+      });
+      $('#contacto').on('show.bs.modal', function (e){
+          console.log('El modal se está mostrando.');
+          $('#contactoBtn').removeClass("btn-outline-success");
+          $('#contactoBtn').addClass("btn-dark");
+          $('#contactoBtn').prop('disabled', true);
+      });
+      $('#contacto').on('hidden.bs.modal', function (e){
+          console.log('El modal se ocultó.')
+          $('#contactoBtn').prop('disabled', false)
+          $('#contactoBtn').removeClass("btn-dark");
+          $('#contactoBtn').addClass("btn-outline-success");
       });
     })
 </script>
