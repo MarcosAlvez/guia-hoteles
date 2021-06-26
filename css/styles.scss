@@ -1,0 +1,37 @@
+$background-primary: #de6000;
+$text-primary: #102240;
+
+@mixin margenes($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+
+.jumbotron {
+  background-color: $background-primary;
+  color:$text-primary;
+  @include margenes(50px, 15px);
+}
+
+.card-hotel {
+  flex: 1 200px;
+  @include margenes(10px, 0px);
+}
+
+.btn-reserva {
+  width: 100%;
+  border-radius: 0;
+}
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: $background-primary;
+  @include margenes(10px, 0px);
+}
+
+.footer-address-icon {
+  padding-right: 14px;
+}
+
+.tab-content {
+  padding-top: 10px;
+}
