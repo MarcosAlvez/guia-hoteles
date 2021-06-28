@@ -1,5 +1,8 @@
 $background-primary: #de6000;
 $text-primary: #102240;
+$rojo: red;
+$amarillo: yellow;
+$verde: green;
 
 @mixin margenes($top, $bottom) {
   margin-top: $top;
@@ -24,7 +27,8 @@ $text-primary: #102240;
 
 footer {
   padding: 10px 10px 0 10px;
-  background-color: $background-primary;
+  background-color: $amarillo;
+  color: $verde;
   @include margenes(10px, 0px);
 }
 

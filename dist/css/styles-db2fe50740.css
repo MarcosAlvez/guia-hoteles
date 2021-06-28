@@ -25,7 +25,8 @@
 
 footer {
   padding: 10px 10px 0 10px;
-  background-color: #de6000;
+  background-color: yellow;
+  color: green;
   margin-top: 10px;
   margin-bottom: 0px;
 }
