@@ -2,25 +2,31 @@
   background-color: #de6000;
   color: #102240;
   margin-top: 50px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 .card-hotel {
   flex: 1 200px;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 .btn-reserva {
   width: 100%;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 footer {
   padding: 10px 10px 0 10px;
   background-color: #de6000;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 .footer-address-icon {
-  padding-right: 14px; }
+  padding-right: 14px;
+}
 
 .tab-content {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
